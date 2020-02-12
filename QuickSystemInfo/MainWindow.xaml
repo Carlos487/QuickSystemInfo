@@ -14,18 +14,18 @@
             <RowDefinition Height="1*"/>
         </Grid.RowDefinitions>
         <TextBlock HorizontalAlignment="Left" Margin="10,0,0,0" TextWrapping="Wrap" Text="Computer name:" VerticalAlignment="Center" Grid.Row="0"/>
-        <TextBox x:Name="ComputerNameTextBox" HorizontalAlignment="Left" Height="23" Margin="113,0,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Center" Width="184" Grid.Row="0" VerticalContentAlignment="Center"/>
+        <TextBox x:Name="ComputerNameTextBox" HorizontalAlignment="Left" Height="23" Margin="113,0,0,0" TextWrapping="Wrap" Text="[Computer Name]" VerticalAlignment="Center" Width="184" Grid.Row="0" VerticalContentAlignment="Center" IsReadOnly="True"/>
         <Button x:Name="ComputerNameButton" Content="Copy" HorizontalAlignment="Left" Margin="302,0,0,0" VerticalAlignment="Center" Width="75" Height="23" Grid.Row="0" Click="ComputerNameButton_Click" />
 
         <TextBlock HorizontalAlignment="Left" Margin="10,0,0,0" TextWrapping="Wrap" Text="Network card:" VerticalAlignment="Center" Grid.Row="1"/>
         <ComboBox x:Name="NetworkCardComboBox" HorizontalAlignment="Left" Margin="113,0,0,0" VerticalAlignment="Center" Width="264" Grid.Row="1" SelectionChanged="NetworkCardComboBox_SelectionChanged" VerticalContentAlignment="Center"/>
         
         <TextBlock HorizontalAlignment="Left" Margin="10,0,0,0" TextWrapping="Wrap" Text="IP address:" VerticalAlignment="Center" Grid.Row="2"/>
-        <TextBox x:Name="IPAddressTextBox" HorizontalAlignment="Left" Height="23" Margin="113,0,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Center" Width="184" Grid.Row="2" VerticalContentAlignment="Center"/>
+        <TextBox x:Name="IPAddressTextBox" HorizontalAlignment="Left" Height="23" Margin="113,0,0,0" TextWrapping="Wrap" Text="[IP address]" VerticalAlignment="Center" Width="184" Grid.Row="2" VerticalContentAlignment="Center" IsReadOnly="True"/>
         <Button x:Name="IPAddressButton" Content="Copy" HorizontalAlignment="Left" Margin="302,0,0,0" VerticalAlignment="Center" Width="75" Height="23" Grid.Row="2" Click="IPAddressButton_Click" />
 
         <TextBlock HorizontalAlignment="Left" Margin="10,0,0,0" TextWrapping="Wrap" Text="MAC address:" VerticalAlignment="Center" Grid.Row="3"/>
-        <TextBox x:Name="MACAddressTextBox" HorizontalAlignment="Left" Height="23" Margin="113,0,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Center" Width="184" Grid.Row="3" VerticalContentAlignment="Center"/>
+        <TextBox x:Name="MACAddressTextBox" HorizontalAlignment="Left" Height="23" Margin="113,0,0,0" TextWrapping="Wrap" Text="[MAC address]" VerticalAlignment="Center" Width="184" Grid.Row="3" VerticalContentAlignment="Center" IsReadOnly="True"/>
         <Button x:Name="MACAddressButton" Content="Copy" HorizontalAlignment="Left" Margin="302,0,0,0" VerticalAlignment="Center" Width="75" Height="23" Grid.Row="3" Click="MACAddressButton_Click" />
         
 
