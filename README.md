@@ -2,7 +2,7 @@
 
 A small Windows utility to get Networking and System information. Provides the ability to easily copy the values to clipboard.  
 
-![Quick System Info Screenshot]("screenshots/main-screenshot.png")
+![Quick System Info Screenshot](screenshots/main-screenshot.png)
 
 ## Features
 
