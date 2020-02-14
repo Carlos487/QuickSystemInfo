@@ -10,6 +10,10 @@ A small Windows utility to get Networking and System information. Provides the a
 * Small footprint
 * Copy to clipboard
 
+## Downloads
+
+[Version v0.1](https://github.com/Carlos487/QuickSystemInfo/releases/tag/v0.1)
+
 ## Requirements
 
 * .Net Framework 4.6.1
