@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:QuickSystemInfo"
         mc:Ignorable="d"
-        Title="Quick System Info" Height="180" Width="397.733" ResizeMode="CanMinimize">
+        Title="Quick System Info" Height="180" Width="397.733" ResizeMode="CanMinimize" Icon="icon.ico">
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="1*"/>
