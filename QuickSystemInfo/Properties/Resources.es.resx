@@ -118,18 +118,18 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="Computer_Name_Label" xml:space="preserve">
-    <value>Computer name:</value>
+    <value>Nombre equipo:</value>
   </data>
   <data name="Copy_Button" xml:space="preserve">
-    <value>Copy</value>
+    <value>Copiar</value>
   </data>
   <data name="Ip_Address_Label" xml:space="preserve">
-    <value>IP address:</value>
+    <value>Dirección IP:</value>
   </data>
   <data name="Mac_Address_Label" xml:space="preserve">
-    <value>MAC address:</value>
+    <value>Dirección MAC:</value>
   </data>
   <data name="Network_Card_Label" xml:space="preserve">
-    <value>Network card:</value>
+    <value>Tarjeta de red:</value>
   </data>
 </root>
