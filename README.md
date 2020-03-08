@@ -9,10 +9,11 @@ A small Windows utility to get Networking and System information. Provides the a
 * Portable (No installation required)
 * Small footprint
 * Copy to clipboard
+* Multiple language support (English, Spanish)
 
 ## Downloads
 
-[Version v0.1](https://github.com/Carlos487/QuickSystemInfo/releases/tag/v0.1)
+[Version v0.2](https://github.com/Carlos487/QuickSystemInfo/releases/tag/v0.2)
 
 ## Requirements
 
