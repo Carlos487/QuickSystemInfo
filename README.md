@@ -19,6 +19,10 @@ A small Windows utility to get Networking and System information. Provides the a
 
 * .Net Framework 4.6.1
 
+## Work in Progress
+
+QuickSystemInfo is currently being ported to DotNet Core and AvaloniaUI, to become an multiplatform application. Expect further news!
+
 ## Author
 
 * Carlos Fabara @carlos487

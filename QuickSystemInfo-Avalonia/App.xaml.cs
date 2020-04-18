@@ -19,7 +19,7 @@ namespace QuickSystemInfo_Avalonia
             {
                 desktop.MainWindow = new MainWindow
                 {
-                    DataContext = new MainWindowViewModel(),
+                    DataContext = new MainWindowViewModel(this),
                 };
             }
 

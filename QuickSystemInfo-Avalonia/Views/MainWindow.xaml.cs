@@ -9,12 +9,13 @@ namespace QuickSystemInfo_Avalonia.Views
         public MainWindow()
         {
             InitializeComponent();
+            //CanResize = false;
+            //SizeToContent = SizeToContent.WidthAndHeight;
         }
 
         private void InitializeComponent()
         {
             AvaloniaXamlLoader.Load(this);
-            
         }
     }
 }
