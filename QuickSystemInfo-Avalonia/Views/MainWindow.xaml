@@ -34,7 +34,7 @@
             <TextBox Text="{Binding IpAddress}" IsReadOnly="True" Width="210"/>
             <Button VerticalAlignment="Center" Command="{Binding CopyData}" CommandParameter="{Binding IpAddress}"  Margin="5,0,0,0" Width="65">Copy</Button>
         </StackPanel>
-        <StackPanel Orientation="Horizontal" Margin="0,0,0,5">
+        <StackPanel Orientation="Horizontal">
             <TextBlock Text="MAC Address: " VerticalAlignment="Center" Width="100"/>
             <TextBox Text="{Binding MacAddress}" VerticalAlignment="Center" IsReadOnly="True" Width="210"/>
             <Button VerticalAlignment="Center" Command="{Binding CopyData}" CommandParameter="{Binding MacAddress}" Margin="5,0,0,0" Width="65">Copy</Button>
