@@ -8,13 +8,12 @@ using System.Net.NetworkInformation;
 using System.Net.Sockets;
 using System.Text.RegularExpressions;
 
-namespace QuickSystemInfo_Avalonia.ViewModels
+namespace QuickSystemInfo.ViewModels
 {
     public class MainWindowViewModel : ViewModelBase
     {
         public MainWindowViewModel()
         {
-            
         }
         public MainWindowViewModel(Application app)
         {
@@ -137,7 +136,6 @@ namespace QuickSystemInfo_Avalonia.ViewModels
             }
             return networkCardList;
         }
-
     }
     public class CustomNetworkInfo
     {

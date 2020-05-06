@@ -1,0 +1,44 @@
+﻿<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:vm="clr-namespace:QuickSystemInfo.ViewModels;assembly=QuickSystemInfo"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d" 
+        SizeToContent="WidthAndHeight"
+        x:Class="QuickSystemInfo.Views.MainWindow"
+        Icon="/Assets/quick.ico"
+        Title="QuickSystemInfo">
+
+    <Design.DataContext>
+      <vm:MainWindowViewModel/>
+    </Design.DataContext>
+
+  <StackPanel Margin="10">
+    <StackPanel Orientation="Horizontal" Margin="0,0,0,5">
+      <TextBlock Text="Computer Name: " VerticalAlignment="Center" Width="100"/>
+      <TextBox Text="{Binding ComputerName}" VerticalAlignment="Center" IsReadOnly="True" Width="210"/>
+      <Button VerticalAlignment="Center" Command="{Binding CopyData}" CommandParameter="{Binding ComputerName}" Margin="5,0,0,0" Width="65">Copy</Button>
+    </StackPanel>
+    <StackPanel Orientation="Horizontal" Margin="0,0,0,5">
+      <TextBlock Text="User Name: " VerticalAlignment="Center" Width="100"/>
+      <TextBox Text="{Binding UserName}" VerticalAlignment="Center" IsReadOnly="True" Width="210"/>
+      <Button VerticalAlignment="Center" Command="{Binding CopyData}" CommandParameter="{Binding UserName}" Margin="5,0,0,0" Width="65">Copy</Button>
+    </StackPanel>
+    <StackPanel Orientation="Horizontal" Margin="0,0,0,5">
+      <TextBlock Text="Network Card: " VerticalAlignment="Center" Width="100"/>
+      <ComboBox SelectedIndex="0" Items="{Binding NetworkList}" SelectedItem="{Binding SelectedNetwork, Mode=TwoWay}" Width="210"/>
+      <Button VerticalAlignment="Center" Command="{Binding CopyData}" CommandParameter="{Binding SelectedNetwork}" Margin="5,0,0,0" Width="65">Copy</Button>
+    </StackPanel>
+    <StackPanel Orientation="Horizontal" Margin="0,0,0,5">
+      <TextBlock Text="IP Address: " VerticalAlignment="Center" Width="100"/>
+      <TextBox Text="{Binding IpAddress}" IsReadOnly="True" Width="210"/>
+      <Button VerticalAlignment="Center" Command="{Binding CopyData}" CommandParameter="{Binding IpAddress}"  Margin="5,0,0,0" Width="65">Copy</Button>
+    </StackPanel>
+    <StackPanel Orientation="Horizontal">
+      <TextBlock Text="MAC Address: " VerticalAlignment="Center" Width="100"/>
+      <TextBox Text="{Binding MacAddress}" VerticalAlignment="Center" IsReadOnly="True" Width="210"/>
+      <Button VerticalAlignment="Center" Command="{Binding CopyData}" CommandParameter="{Binding MacAddress}" Margin="5,0,0,0" Width="65">Copy</Button>
+    </StackPanel>
+  </StackPanel>
+
+</Window>
